@@ -41,8 +41,7 @@ private fun MyApp(modifier: Modifier = Modifier) {
 
 @Composable
 fun OnBoardingScreen(
-    onContinueClicked: () -> Unit,
-    modifier: Modifier = Modifier
+    onContinueClicked: () -> Unit, modifier: Modifier = Modifier
 ) {
     // TODO: This state should be hoisted
     Column(
